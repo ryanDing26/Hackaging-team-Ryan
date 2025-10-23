@@ -648,8 +648,9 @@ SUPPLEMENTARY FILES:
 def main():
     """Main entry point"""
     AGING_QUERIES = [
+        "aging",
         # General Aging
-        # "aging mechanisms[Title/Abstract]",
+        "aging mechanisms[Title/Abstract]",
         "senescence mechanisms[Title/Abstract]",
         "aging biology[Title/Abstract]",
         "longevity[Title/Abstract] AND mechanisms",

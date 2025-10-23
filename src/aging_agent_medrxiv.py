@@ -583,6 +583,7 @@ SUPPLEMENTARY FILES:
 def main():
     """Main entry point"""
     AGING_QUERIES_MEDRXIV = [
+        "aging",
         "senescence mechanisms",
         "aging biology",
         "longevity mechanisms",

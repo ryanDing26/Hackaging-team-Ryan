@@ -570,6 +570,7 @@ def main():
     """Main entry point"""
     AGING_QUERIES_ARXIV = [
         # General Aging
+        'aging',
         '(ti:"senescence mechanisms" OR abs:"senescence mechanisms") AND cat:q-bio.*',
         '(ti:"aging biology" OR abs:"aging biology") AND cat:q-bio.*',
         '(ti:longevity OR abs:longevity) AND (ti:mechanisms OR abs:mechanisms) AND cat:q-bio.*',

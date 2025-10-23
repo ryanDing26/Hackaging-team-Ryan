@@ -60,25 +60,25 @@ Database-agnostic agent setup.
 
 ```
 .
-├── run_agent.py              # Main runner script
-├── aging_agent.py            # Core agent implementation
-├── requirements.txt          # Python dependencies
+├── run_agent_pubmed.sh         # Main runner script(s)
+├── run_agent_europepmc.sh      # Main runner script(s)
+├── run_agent_arxiv.sh          # Main runner script(s)
+├── run_agent_biorxiv.sh        # Main runner script(s)
+├── run_agent_medrxiv.sh        # Main runner script(s)
+├── .gitignore
+├── .env                        # See above for how to configure
+├── requirements.txt            # Python dependencies
 ├── src/
 │   ├── aging_tools.py                    # Data structures and tool templates
 │   ├── aging_tools_implementation.py     # API integrations (PubMed, etc.)
 │   └── aging_workflow.py                 # Workflow orchestration
-├── output/                   # Generated CSV files (created at runtime)
+├── results/                    # Generated CSV files (preprocessed and aggregated)
 │   ├── table1_theories.csv
 │   ├── table2_papers.csv
 │   └── table3_annotations.csv
-└── cache/                    # Cached API responses (created at runtime)
 ```
 
-## 🤖 How It Works
-
-### Agentic Loop
-
-The agent runs in iterations, with Claude making decisions at each step:
+## How It Works
 
 ```
 ┌─────────────────────────────────────────┐

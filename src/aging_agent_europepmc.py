@@ -557,6 +557,7 @@ SUPPLEMENTARY FILES:
 def main():
     """Main entry point"""
     AGING_QUERIES_EPMC = [
+        "aging",
         "senescence mechanisms",
         "aging biology",
         "longevity mechanisms",
