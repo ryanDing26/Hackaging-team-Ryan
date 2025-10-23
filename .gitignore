@@ -1,0 +1,12 @@
+.env
+__pycache__
+cache
+logs/
+submission_output/
+arxiv_output
+europepmc_output
+manual_eval
+medrxiv_output
+submission_output
+submission_output_biorxiv
+logs
